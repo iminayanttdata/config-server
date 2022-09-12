@@ -21,3 +21,7 @@ spring:
           uri: lb://BankMovement
           predicates:
             - Path=/BankMovement/**
+        - id: BankProduct
+          uri: lb://BankProduct
+          predicates:
+            - Path=/BankProduct/**       
