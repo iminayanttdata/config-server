@@ -13,8 +13,10 @@ server:
 #     driverClassName: org.h2.Driver
 spring:
  data:
-     mongodb:
-      uri: mongodb+srv://root:XR1dZNfCu7G7vbYL@cluster0.rc9rpyb.mongodb.net/?retryWrites=true&w=majority
+   mongodb:
+       database: bankmovement
+       uri: mongodb://localhost:27017
+       #mongodb+srv://root:XR1dZNfCu7G7vbYL@cluster0.rc9rpyb.mongodb.net/?retryWrites=true&w=majority
 
 eureka:
   client:
