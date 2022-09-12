@@ -1,6 +1,6 @@
 server:
   port: 8081
-  
+
 eureka:
   client:
     fetch-registry: true
@@ -21,7 +21,3 @@ spring:
           uri: lb://BankMovement
           predicates:
             - Path=/BankMovement/**
-        - id: BankProduct
-        uri: lb://BankProduct
-        predicates:
-          - Path=/BankProduct/**   
